@@ -1,0 +1,136 @@
+/* .material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+} */
+
+
+
+.tasks-lable{
+    width: 60%;
+    min-height: 400px;
+    background-color: rgb(239, 239, 239);
+    margin-top: 80px;
+}
+
+
+.main-div{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 22px;
+}
+
+
+.add-task{
+     float: right;
+    position: relative;
+    top: -45px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0px 3px 5px rgba(168, 168, 168, 0.38);
+    line-height: 0px;
+}
+
+
+body{
+    background-color: rgb(30, 0, 77);
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+
+.task{
+    display: flex;
+    margin: 10px ;
+    border-bottom: 1px solid black;
+    transition: 0.3s box-shadow;
+    background-color: white;
+}
+
+
+.done{
+    background-color: rgb(158, 253, 160);
+}
+
+
+.task:hover{
+    box-shadow: 0px 3px 15px rgba(170, 170, 170, 0.843);
+
+}
+
+
+
+
+
+.tasks-sec{
+    position: relative;
+    top: -20px;
+}
+
+
+
+.task-info{
+    width: 70%;
+    padding: 5px;
+}
+
+.task-info h2{
+    font-size: 20px;
+    position: relative;
+}
+
+
+.task-info span{
+    position: relative;
+    left: -25px;
+}
+
+
+
+
+.buttons-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+
+
+
+.buttons-info .circle{
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    border: none;
+    color: white;
+}
+
+
+.buttons-info .one{
+ background-color: red;
+}
+.buttons-info .two{
+    background-color: rgb(8, 194, 8);
+}
+.buttons-info .three{
+    background-color: cornflowerblue;
+}
+
+
